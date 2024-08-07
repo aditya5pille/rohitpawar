@@ -117,6 +117,16 @@ const Header = () => {
             </div>
           </div>
         </section>
+         <section>
+          <Link
+            href="https://wa.me/9763714046"
+            className="fixed bottom-4 right-4 text-white p-3 rounded-full shadow-lg hover:bg-green-600 transition duration-300"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Image src="/whatsapp.png" alt="Rohit Pawar" className="rounded-lg" width={50} height={30} />
+          </Link>
+        </section>
       </header>
     </>
   );
