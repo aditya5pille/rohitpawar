@@ -48,8 +48,6 @@ const Header = () => {
             </CarouselContent>
             {/* Arrows positioned within the carousel */}
             <div className="absolute inset-0 flex items-center justify-between px-4 z-20">
-              <CarouselPrevious onClick={() => setCurrentIndex((currentIndex - 1 + images.length) % images.length)} />
-              <CarouselNext onClick={() => setCurrentIndex((currentIndex + 1) % images.length)} />
             </div>
           </Carousel>
         </div>
